@@ -3,19 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
+    <title>Your Name - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="circle-container">
-        <div class="circle">
-            <h1>Hi, I'm Daniel</h1>
-            <p>I'm passionate about learning computer science and technology. I'm 14 years old, and I believe in taking small steps to achieve big goals.</p>
-            <h2>My Recent Projects</h2>
-            <div class="project-list" id="projects"></div>
+    <header>
+        <h1>Your Name</h1>
+        <p>Aspiring Web Developer</p>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                Hi there! I'm an enthusiastic computer science student with a passion for web development. I'm eager to learn and grow in the ever-evolving tech world. My current focus includes mastering Python, Java, HTML, and SQL while working on exciting projects to sharpen my skills.
+            </p>
         </div>
-    </div>
-    
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>Web Development: HTML, CSS, JavaScript</li>
+                <li>Backend Development: Python, Java</li>
+                <li>Database: SQL</li>
+                <li>Version Control: Git</li>
+                <li>Problem Solving: Algorithms, Data Structures</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Recent Projects</h2>
+            <div class="project-list" id="projects-list">
+                <!-- Projects will be dynamically added here using JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>
+                Interested in collaborating on a project or just want to say hello? I'd love to hear from you!
+            </p>
+            <a href="mailto:your-email@example.com" class="contact-btn">Send an Email</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
