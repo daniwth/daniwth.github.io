@@ -4,7 +4,7 @@ function renderRecentProjects() {
         .then(response => response.json())
         .then(data => {
             const projectsContainer = document.getElementById('projects');
-            const projects = data.slice(0, 5); // Display the 5 most recent projects
+            const projects = data.slice(0, 7); // Display the 5 most recent projects
             
             projects.forEach(project => {
                 const projectElement = document.createElement('a');
