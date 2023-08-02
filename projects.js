@@ -3,6 +3,15 @@
 const username = 'daniwth';
 const reposEndpoint = `https://api.github.com/users/${username}/repos`;
 
+const hiddenRepos = [
+  'daniwth',
+  'daniwth.github.io',
+  'xD'
+  'xDD'
+  'XDXDDD'
+  // Agrega aquí los nombres de los repositorios que deseas ocultar
+];
+
 async function fetchRepos() {
   try {
     const response = await fetch(reposEndpoint);
@@ -23,7 +32,8 @@ function displayRepos(repos) {
   repos.forEach(repo => {
     if (
       (!searchInput.value || repo.name.toLowerCase().includes(searchInput.value.toLowerCase())) &&
-      (filterLanguage.value === 'all' || repo.language === filterLanguage.value)
+      (filterLanguage.value === 'all' || repo.language === filterLanguage.value) &&
+      !hiddenRepos.includes(repo.name.toLowerCase()) // Excluir repositorios ocultos
     ) {
       projectsList.innerHTML += createRepoHTML(repo);
     }
