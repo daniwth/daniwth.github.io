@@ -17,7 +17,7 @@ Soy un apasionado programador que está aprendiendo constantemente y construyend
 Puedes encontrarme en las siguientes plataformas:
 
 - [GitHub](https://github.com/daniwth)
-- [Twitter](https://twitter.com/danii_wtkd))
+- [Twitter](https://twitter.com/danii_wtkd)
 - [Correo Electrónico](danielmunozmartinez368@gmail.com)
 
 ## Contribuciones
