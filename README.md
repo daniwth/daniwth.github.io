@@ -29,3 +29,7 @@ Si te gustaría contribuir o colaborar en alguno de mis proyectos, ¡no dudes en
 Este sitio web y sus proyectos se rigen por sus propias [licencias](https://daniwth.me/license) individuales. Asegúrate de revisar las licencias específicas en los repositorios de cada proyecto si tienes alguna pregunta.
 
 Gracias por visitar mi sitio web y explorar mis proyectos. ¡Espero que encuentres algo interesante aquí!
+
+## Links
+[Documentación](https://docs.daniwth.me)
+[Ayuda](https://help.daniwth.me)
